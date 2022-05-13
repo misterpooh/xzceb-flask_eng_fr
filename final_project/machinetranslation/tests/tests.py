@@ -1,5 +1,5 @@
 import unittest
-import translator
+from machinetranslation import translator
 class TestTranslator(unittest.TestCase):
     def test_null_input(self):
         self.assertEqual(translator.french_to_english(None), '')
